@@ -1,10 +1,10 @@
 print('''1 To 'Add' two numbers 
 2 To 'Subtract' two numbers 
 3 For 'Multiplication' of  two numbers 
-4 For 'Division''')
+4 For Division''')
 
-ct=1
-while ct == 1:
+ct=True
+while ct == True:
 	ch=int(input("Enter your choice: "))
 	if ch>4:
 		print("invalid choice")
@@ -25,9 +25,9 @@ while ct == 1:
 			
 		a=input("do you wish to continue to calculate?type(yes/no)")
 		if a=='yes':
-			ct=1
+			ct=True
 		else:
-			ct=0
+			ct=False
 		
 
 
